@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="763173387217-lv83ao8bnjcorooamgv3enh452o3tab9.apps.googleusercontent.com">
+    <title>Giới thiệu | Fresh Mart</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo2.webp">
+    <link rel="stylesheet" href="./assets/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.1.1/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/modal.css">
+    <link rel="stylesheet" href="./assets/css/introduction.css">
+    <link rel="stylesheet" href="./assets/css/rpsIntroduction.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container width_86 width_94">
+            <div class="nav-left">
+                <ul id="nav">
+                    <li class="nav-item">
+                        <a href="./index.html" class="header-nav-home" >Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./introduction.html">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item nav-product ">
+                        <div class="nav-product">
+                            <a href="./products.html">Sản phẩm <i class="fa-solid fa-caret-down nav-arrow-icon"></i></a>
+                        </div>
+                        <ul class="subnav">
+                            <li class="subnav-item"><a href="./subnavfruits.html">Trái cây</a></li>
+                            <li class="subnav-item"><a href="./subnavbeats.html">Thịt tươi</a></li>
+                            <li class="subnav-item"><a href="./subnavseafood.html">Hải sản tươi</a></li>
+                            <li class="subnav-item"><a href="./subnavvagetable.html">Rau củ </a></li>
+                            <li class="subnav-item"><a href="#">Thực phẩm khô</a></li>
+                            <li class="subnav-item"><a href="#">Đồ uống</a></li>
+                            <li class="subnav-item"><a href="#">Bơ sữa</a></li>
+                            <li class="subnav-item"><a href="#">Thực phẩm tết</a></li>
+                            <li class="subnav-item"><a href="#">Hạt giống</a></li>
+                            <li class="subnav-item"><a href="#">Đồ ăn đóng hộp</a></li>
+                            <li class="subnav-item"><a href="#">Sản phẩm bán chạy</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./news.html">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-between-logo">
+                <a href="./index.html"><img src="./assets/images/logo.webp" alt="logo" class="nav-logo"></a>
+            </div>
+            <div class="nav-right">
+                <div class="search">
+                    <input type="text" placeholder="Bạn cần tìm gì?">
+                    <a href="#" class="ti-search"></a>
+                </div>
+                <ul class="nav-right-list">
+                    <li class="list--item">
+                        <a href="./favorite.html" class="navright-item ti-heart">
+                            <span class="notification">0</span>
+                        </a>
+                    </li>
+                    <li class="list--item">
+                        <a href="#" class="navright-item ti-bag js-btn-cartshopping">
+                            <span class="notification">0</span>
+                        </a>
+                    </li>
+                    <li class="list--item user">
+                        <a href="#" class="navright-item ti-user"></a>  
+                        <div class="signupsignin">
+                            <div class="signupsignin-item signin">
+                                <button class="btn btn-login js-btn-login">Đăng nhập</button>
+                            </div>
+                            <div class="signupsignin-item signup">
+                                <button class="btn btn-register js-btn-register">Đăng ký</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list--item">
+                        <a href="#" class="navright-item ti-align-right js-btn-sidebar"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+    <!-- SILDER -->
+    <div id="slider">
+        <div id="drop-of-water">
+            <img src="./assets/images/bg-after-header.webp" alt="">
+        </div>
+        <div class="slider-title">Giới thiệu</div>
+        <div class="slider-nav">
+            <a href="./index.html" class="nav-item">Trang chủ</a><i>/</i>
+            <b class="nav-item">Giới thiệu</b>
+        </div>
+    </div>
+    <!-- CONTENT -->
+    <div id="content">
+        <div class="content-about width_86 width_94 m-lr-auto">
+            <div class="content-item content-title">Giới thiệu</div>
+            <div class="content-item content-description">
+                <p><b>ND Fresh:</b> là hệ thống cửa hàng thực phẩm sạch uy tín nhất ở Việt Nam, chuyên cung cấp thực phẩm sạch tới từng bếp ăn của gia đình bạn.</p>
+            </div>
+            <!-- vision: tầm nhìn -->
+            <div class="content-item content-vision">
+                <p><b>Tầm nhìn:</b> Được nuôi trồng, chế biến theo phương Bio (sinh học), Organic (hữu cơ), Eco (sinh thái); cam kết không bán hàng giả, hàng nhái và hàng kém chất lượng. Sản phẩm được giao đến tay khách hàng luôn đúng cam kết, đúng chất lượng niệm yết, luôn được bảo quản trong môi trường lý tưởng, đảm bảo vệ sinh an toàn thực phẩm.</p>
+            </div>
+            <div class="content-item content-target">
+                <p><b>Mục tiêu:</b> Sản phẩm được giao đến tay khách hàng luôn đúng cam kết, đúng chất lượng niệm yết, luôn được bảo quản trong môi trường lý tưởng, đảm bảo vệ sinh an toàn thực phẩm.</p>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div id="footer">
+        <div id="drop-of-water1">
+            <div class="drop-of-water">
+                <img src="./assets/images/bg-before-footer.webp" alt="">
+            </div>
+        </div>
+        <div class="footer-first width_86 width_94 m-lr-auto ">
+            <div class="footer-item footer-signup">
+                <div class="signup-des">
+                    <h3>ĐĂNG KÝ NHẬN THÔNG TIN</h3>
+                    <p>Đăng ký nhận bản tin để nhận ưu đãi đặc biệt về sản phẩm ND Fresh</p>
+                </div>
+                <div class="signup-text-btn">
+                    <div class="signup-text">
+                        <input type="text" placeholder="Nhập email của bạn">
+                    </div>
+                   <div class="signup-btn">
+                        <input type="submit" value="Đăng ký" >
+                   </div>
+                </div>
+            </div>
+            <div class="footer-item footer-introduction">
+                <div class="logo">
+                    <img src="./assets/images/logo.webp" alt="">
+                </div>
+                <div class="introduction">
+                    Website thương mại điện tử ND Fresh do ND Group là đơn vị chủ quản, chịu trách nhiệm và thực hiện các giao dịch liên quan mua sắm sản phẩm hàng hoá tiêu dùng thiết yếu.
+                </div>
+                <div class="logofooter">
+                    <img src="./assets/images/img-footer.webp" alt="">
+                </div>
+            </div>
+            <div class="footer-item footer-contact">
+                <h3>LIÊN HỆ VỚI CHÚNG TÔI</h3>
+                <div>
+                    <p>Địa chỉ: </p><a>470 Trần Đại Nghĩa, NHS, Đà Nẵng</a>
+                    
+                </div>
+                <div>
+                    <p>Điện thoại: </p><a>0332670569</a>
+                </div>
+                <div>
+                    <p>Email: </p><a>Clover.21it@vku.udn.vn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-last">
+            <div class="footer-copyright-iconcontact width_94 width_86 m-lr-auto">
+                <div class="copyright">
+                    <p>@ Bản quyền thuộc về Fresh Mart | Cung cấp bởi Clover</p>
+                </div>
+                <div></div>
+                <div class="iconcontact">
+                    <a href="" class="iconcontact-item ti-facebook"></a>
+                    <a href="" class="iconcontact-item ti-twitter"></a>
+                    <a href="" class="iconcontact-item ti-google"></a>
+                    <a href="" class="iconcontact-item icon-ytb"><img src="./assets/images/icon-ytb.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL -->
+    <div class="modal js-modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__registerlogin js-modal__registerlogin">
+            <!-- Register -->
+            <!-- Terms and policy: điều khoản và dịch vụ -->
+            <div class="modal__inner modal__register js-modal__register">
+                <div class="inner__authform--header">
+                    <img src="./assets/images/logo.webp" alt="">
+                    <div class="authform__fromhome">
+                        <a href="./index.html">Trang chủ</a>
+                        <span>/</span>
+                        <p>Đăng nhập tài khoản</p>
+                    </div>
+                </div>
+                <div class="inner__authform--body">
+                    <div class="inner__authform--form">
+                        <div class="authform__item">
+                            <input type="text" name="" placeholder="Họ tên">
+                            <input type="text" name="" placeholder="Số điện thoại">
+                            <input type="text" name="" placeholder="E-mail">
+                            <input type="password" name="" placeholder="Mật khẩu">
+                        </div>
+                        <div class="authform__help">
+                            <button class="authform__help--register">Đăng nhập</button>
+                        </div>
+                        <div class="authform__separate">
+                            <span>Hoặc đăng nhập qua</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner__authform--socials">
+                    <div class="authform--socials-item authform--socialsFb">
+                        <a href="" class=""><i class="fa-brands fa-facebook-square"></i>Facebook</a>
+                    </div>
+                    <div class="authform--socials-item authform--socialsGg g-signin2" data-onsuccess="onSignIn">
+                    </div>
+                </div>
+                <div class="inner__authform--controls">
+                    <button class="btn-registerModal js-btnregisterModal">Tạo tài khoản</button>
+                    <button class="btn-cancel js-btn-cancel">Quay về trang chủ</button>
+                </div>
+            </div> 
+            <!-- LogIn -->
+            <div class="modal__inner modal__login js-modal__login"> 
+                <div class="inner__authform--header">
+                    <img src="./assets/images/logo.webp" alt="">
+                    <div class="authform__fromhome">
+                        <a href="./index.html">Trang chủ</a>
+                        <span>/</span>
+                        <p>Đăng nhập tài khoản</p>
+                    </div>
+                </div>
+                <div class="inner__authform--body">
+                    <div class="inner__authform--form">
+                        <div class="authform__item">
+                            <input type="text" name="" placeholder="E-mail">
+                            <input type="password" name="" placeholder="Mật khẩu">
+                        </div>
+                        <div class="authform__help">
+                            <button>Đăng nhập</button>
+                            <a href="#" class="authform__help--forgot">Quên mật khẩu?</a>
+                        </div>
+                        <div class="authform__separate">
+                            <span>Hoặc đăng nhập qua</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner__authform--socials">
+                    <div class="authform--socials-item authform--socialsFb">
+                        <a href="" class=""><i class="fa-brands fa-facebook-square"></i>Facebook</a>
+                    </div>
+                    <div class="authform--socials-item authform--socialsGg g-signin2" data-onsuccess="onSignIn">
+                    </div>
+                </div>
+                <div class="inner__authform--header inner__authform--headercp">
+                    <p class="inner__authform--title">Đăng ký</p>
+                    <p class="inner__authform--des">Tạo tài khoản để quản lý đơn hàng, và các thông tin thanh toán, gửi hàng một cách đơn giản hơn.</p>
+                </div>
+                <div class="inner__authform--controls">
+                    <button class="btn-registerModal js-btnregisterModal">Tạo tài khoản</button>
+                    <button class="btn-cancel js-btn-cancel">Quay về trang chủ</button>
+                </div>
+            </div>  
+        </div>
+        <div class="modal__cartshopping js-modal__cartshopping">
+            <div class="modal__cartshpping--inner js--modal__cartshpping">
+                <div class="modal__cartshopping--header">
+                    <h4>GIỎ HÀNG</h4>
+                    <button class="ti-close cartshopping--icon js-btn-close"></button>
+                </div>
+                <div class="modal__cartshopping--noproduct js--noproduct">
+                    <img src="./assets/images/mobile-shopping.svg" alt="">
+                    <button class="btn--continueshopping">Tiếp tục mua hàng</button>
+                </div>
+                <div class="summoney js--summoney">
+                    <span class="summoney--separate summoney--item"></span>
+                    <div class="summoney-labelandsum summoney--item">
+                        <p class="summoney--labelsum">Tổng tiền:</p>
+                        <div class="summoney--intomoneyandunitprice">
+                            <div class="summoney__currency">
+                                <p class="summoney--intomoney js--intomoney">500</p>
+                                <p>.000</p>
+                            </div>
+                            <p class="summoney--unitprice">đ</p>
+                        </div>
+                    </div>
+                    <button class="summoney--payment summoney--item">Thanh toán</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal__sidebar js-modal__sidebar">
+            <div class="modal__sidebar--inner">
+                <div class="modal__sidebar--nav">
+                    <ul class="sidebar__login">
+                        <li class="sidebar__login-inner">
+                            <span class="sidebar--btn-login js-btn-loginRps"><i class="fa-solid fa-right-to-bracket"></i>Đăng nhập</span>
+                        </li>
+                    </ul>
+                    <ul class="modal__sidebar--list">
+                        <li class="modal__sidebar--item">
+                            <a href="./index.html"><i class="fa-solid fa-house"></i>Trang chủ </a>
+                        </li>
+                        <li class="modal__sidebar--item">
+                            <a href="./products.html"><i class="fa-solid fa-clipboard-list"></i>Sản phẩm</a>
+                        </li>
+                        <li class="modal__sidebar--item">
+                            <a href="./news.html"><i class="fa-solid fa-newspaper"></i>Tin tức</a>
+                        </li>
+                        <li class="modal__sidebar--item">
+                            <a href="./contact.html"><i class="fa-solid fa-square-phone"></i>Liên hệ</a>
+                        </li>
+                        <li class="modal__sidebar--item">
+                            <a href="./introduction.html"><i class="fa-solid fa-circle-info"></i>Giới thiệu</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+</html>
