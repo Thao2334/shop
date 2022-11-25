@@ -41,9 +41,11 @@ Route::get('/show_details',function(){
     return view('pages.sanpham.show_details');
 });
 
-Route::get('/chitiet',function(){
-    return view('pages.chitiet.chitiet');
+Route::get('/welcome',function(){
+    return view('welcome');
 });
+
+
 
 
 
@@ -83,7 +85,13 @@ Route::post('/update-product/{product_id}','App\Http\Controllers\ProductControll
 
 // post 
 Route::get('/add-category-post',[CategoryPostController::class,'add_category_post']);
-Route::get('/save-category-post',[CategoryPostController::class,'save_category_post']);
+Route::get('/all-category-post',[CategoryPostController::class,'all_category_post']);
+Route::post('/edit-category-post/{category_post_id}',[CategoryPostController::class,'edit_category_post']);
+
+Route::post('/save-category-post',[CategoryPostController::class,'save_category_post']);
+Route::post('/update-category-post/{cate_id}',[CategoryPostController::class,'update_category_post']);
+Route::post('/delete-category-post/{cate_id}',[CategoryPostController::class,'delete_category_post']);
+Route::get('/danh-muc-bai-viet',[CategoryPostController::class,'danh_muc_bai_viet']);
 
 //comment
 Route::post('/load-comment','App\Http\Controllers\ProductController@load_comment');
